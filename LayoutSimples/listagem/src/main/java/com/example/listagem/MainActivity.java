@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(MainActivity.this, Integer.toString(i),Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, Integer.toString(i)+listagem[i],Toast.LENGTH_LONG).show();
             }
         });
     }
