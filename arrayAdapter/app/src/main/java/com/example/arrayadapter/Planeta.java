@@ -6,10 +6,10 @@ import java.util.ArrayList;
 
 public class Planeta {
     String nome;
-    Integer Integer;
+    Integer foto;
 
-    public Planeta(String nome, java.lang.Integer integer) {
+    public Planeta(String nome,Integer integer) {
         this.nome = nome;
-        Integer = integer;
+        this.foto = integer;
     }
 }
