@@ -9,8 +9,9 @@
         android:id="@+id/imageView"
         android:layout_width="160dp"
         android:layout_height="143dp"
-        tools:layout_editor_absoluteX="248dp"
-        tools:layout_editor_absoluteY="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -18,6 +19,9 @@
         android:layout_width="93dp"
         android:layout_height="48dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="47dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368" />
 </androidx.constraintlayout.widget.ConstraintLayout>
