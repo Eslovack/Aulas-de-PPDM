@@ -34,7 +34,7 @@ public class PlanetaAdapter extends ArrayAdapter<Planeta> {
         View view = layoutInflater.inflate(mResource, parent, false);
 
 
-        return super.getView(position, convertView, parent);
+        return (view);
 
     }
 }

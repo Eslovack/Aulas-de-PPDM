@@ -15,9 +15,9 @@
 
     <TextView
         android:id="@+id/textViewNome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="63dp" />
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="47dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

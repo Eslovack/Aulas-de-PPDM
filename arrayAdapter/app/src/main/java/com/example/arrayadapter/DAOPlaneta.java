@@ -16,4 +16,5 @@ public class DAOPlaneta {
 
 
         }
+        public ArrayList<Planeta>getPlanetas(){return planetas;}
 }
