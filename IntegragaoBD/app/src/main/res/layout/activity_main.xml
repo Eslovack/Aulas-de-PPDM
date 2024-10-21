@@ -10,7 +10,7 @@
         android:id="@+id/TextPessoaNome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="112dp"
         android:hint="nome"
         android:text="Nome"
         android:textSize="20sp"
@@ -37,7 +37,7 @@
         android:id="@+id/TextPessoaDtnsc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="44dp"
         android:scrollbarSize="14dp"
         android:text="Data de Nascimento"
         android:textSize="20sp"
@@ -45,18 +45,6 @@
         app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editEmail" />
-
-    <TextView
-        android:id="@+id/TextPessoaEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
-        android:text="Email"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.263"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editNome" />
 
     <EditText
         android:id="@+id/editDataNsc"
@@ -72,13 +60,38 @@
         app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TextPessoaDtnsc"
-        app:layout_constraintVertical_bias="0.005" />
+        app:layout_constraintVertical_bias="0.006" />
+
+    <TextView
+        android:id="@+id/TextPessoaEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Email"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNome" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextPessoaEmail" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="215dp"
         android:layout_height="60dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="68dp"
         android:text="Cadastrar
 "
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,25 +103,11 @@
         android:id="@+id/textView4"
         android:layout_width="245dp"
         android:layout_height="78dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:text="Cadastrar Usuário"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:ems="10"
-        android:hint="email"
-        android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.472"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TextPessoaEmail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
